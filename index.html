@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Formulario de Datos</h1>
+  <section>
+  <form action="">
+    <div>
+      <h3>Nombre</h3>
+      <input id="nombre" type="text"><br>
+    </div>
+    <div>
+      <h3>Apellido</h3>
+      <input id="apellido" type="text"><br>
+    </div>
+    <div>
+      <h3>Teléfono</h3>
+      <input id="telefono" type="text" pattern=".{9,9}" title="9 o más caracteres" required><br>
+    </div>
+    <div>
+      <h3>Escoge tu carro para continuar</h3>
+      <select name="" id="">
+        <option value="value1">Escoge tu carro</option>
+        <option value="value2">Volvo</option>
+        <option value="value3">Saab</option>
+        <option value="value4">Mercedes</option>
+        <option value="value5">Audi</option>
+      </select>
+    </div>
+    <div>
+      <h3>Email</h3>
+      <input type="email" required>
+    </div>
+    <div>
+      <h3>Crea tu contraseña</h3>
+      <input type="password" pattern=".{6,10}" title="6 o más caracteres" required><br>
+    </div><br>
+    <button type="submit">Enviar</button>
+  </section>
+  </form>
+</body>
+</html>
